@@ -13,8 +13,9 @@ const Contact = () => {
         <img className='w-full md:max-w-[360px]' src="https://kiennghiepgroup.com/wp-content/uploads/2024/06/bac-si-nha-khoa-lam-nhung-cong-viec-gi-kien-nghiep-group.png" alt="" />
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className=' font-semibold text-lg text-gray-600'>PHÒNG KHÁM CỦA CHÚNG TÔI</p>
-          <p className=' text-gray-500'>Địa chỉ <br /> Việt Nam</p>
+          <p className=' text-gray-500'>Địa chỉ <br /> 470 Đ. Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng</p>
           <p className=' text-gray-500'>Hotline: (415) 555-0132 <br /> Email: nhakhoa@gmail.com</p>
+          <p className=' text-gray-500'>Fanpage: fb.com/nhakhoa </p>
         </div>
       </div>
 
