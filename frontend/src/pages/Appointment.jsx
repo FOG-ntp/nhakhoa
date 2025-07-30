@@ -138,7 +138,14 @@ const Appointment = () => {
                     {/* ----- Doc About ----- */}
                     <div>
                         <p className='flex items-center gap-1 text-sm font-medium text-[#262626] mt-3'>Thông tin bác sĩ <img className='w-3' src={assets.info_icon} alt="" /></p>
-                        <p className='text-sm text-gray-600 max-w-[700px] mt-1'>{docInfo.about}</p>
+                        <p className='text-sm text-gray-600 max-w-[700px] mt-1'>
+  {docInfo.about.split('\n').map((line, idx) => (
+    <React.Fragment key={idx}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</p>
                     </div>
 
                     {/* 

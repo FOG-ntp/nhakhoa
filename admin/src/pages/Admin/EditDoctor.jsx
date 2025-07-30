@@ -20,7 +20,7 @@ const EditDoctor = () => {
     const [password, setPassword] = useState('');
     const [experience, setExperience] = useState(doctor?.experience || '1 Năm');
     const [about, setAbout] = useState(doctor?.about || '');
-    const [speciality, setSpeciality] = useState(doctor?.speciality || 'Chuyên khoa trẻ em');
+    const [speciality, setSpeciality] = useState(doctor?.speciality || 'Chuyên khoa Điều Trị');
     const [degree, setDegree] = useState(doctor?.degree || '');
     const [address1, setAddress1] = useState(doctor?.address || '');
     const [selectedServices, setSelectedServices] = useState(doctor?.services.split(', ') || []); // Chuyển từ chuỗi dịch vụ thành mảng
@@ -125,8 +125,8 @@ const EditDoctor = () => {
                         <div className='flex-1 flex flex-col gap-1'>
                             <p>Chuyên khoa</p>
                             <select onChange={e => setSpeciality(e.target.value)} value={speciality} className='border rounded px-2 py-2'>
-                                <option value="Chuyên khoa trẻ em">Chuyên khoa trẻ em</option>
-                                <option value="Chuyên khoa người lớn">Chuyên khoa người lớn</option>
+                                <option value="Chuyên khoa Điều Trị">Chuyên khoa Điều Trị</option>
+                                <option value="Chuyên khoa Thẩm Mỹ">Chuyên khoa Thẩm Mỹ</option>
                             </select>
                         </div>
                         <div className='flex-1 flex flex-col gap-1'>

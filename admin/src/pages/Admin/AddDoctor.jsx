@@ -13,7 +13,7 @@ const AddDoctor = () => {
     const [password, setPassword] = useState('')
     const [experience, setExperience] = useState('1 Năm')
     const [about, setAbout] = useState('')
-    const [speciality, setSpeciality] = useState('Chuyên khoa trẻ em')
+    const [speciality, setSpeciality] = useState('Chuyên khoa Điều Trị')
     const [degree, setDegree] = useState('')
     const [address1, setAddress1] = useState('')
     const [address2, setAddress2] = useState('')
@@ -142,8 +142,8 @@ const AddDoctor = () => {
                         <div className='flex-1 flex flex-col gap-1'>
                             <p>Chuyên khoa</p>
                             <select onChange={e => setSpeciality(e.target.value)} value={speciality} className='border rounded px-2 py-2'>
-                                <option value="Chuyên khoa trẻ em">Chuyên khoa trẻ em</option>
-                                <option value="Chuyên khoa người lớn">Chuyên khoa người lớn</option>
+                                <option value="Chuyên khoa điều trị">Chuyên khoa Điều Trị</option>
+                                <option value="Chuyên khoa Thẩm Mỹ">Chuyên khoa Thẩm Mỹ</option>
                             </select>
                         </div>
 
