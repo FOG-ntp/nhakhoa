@@ -36,6 +36,12 @@ import General_physician from "./General_physician.svg";
 import Gynecologist from "./Gynecologist.svg";
 import Neurologist from "./Neurologist.svg";
 import Pediatricians from "./Pediatricians.svg";
+import IconCaoVoiRang from "./Icon-cao-voi-rang.png";
+import IconNiengRang from "./Icon-nieng-rang.png";
+import IconTayTrangRang from "./Icon-tay-trang-rang.png";
+import IconTramRang from "./Icon-tram-rang.png";
+import IconImplant from "./Icon_Implant.png";
+import IconBocRangSu from "./Icon-boc-rang-su.png";
 
 export const assets = {
   appointment_img,
@@ -58,7 +64,7 @@ export const assets = {
 };
 
 export const specialityData = [
-  {
+/*   {
     speciality: "Tư vấn",
     image: General_physician,
   },
@@ -81,6 +87,30 @@ export const specialityData = [
   {
     speciality: "Nhổ răng",
     image: Gastroenterologist,
+  }, */
+  {
+    speciality: "Cạo vôi răng",
+    image: IconCaoVoiRang,
+  },
+  {
+    speciality: "Niềng răng",
+    image: IconNiengRang,
+  },
+  {
+    speciality: "Tẩy trắng răng",
+    image: IconTayTrangRang,
+  },
+  {
+    speciality: "Trám răng",
+    image: IconTramRang,
+  },
+  {
+    speciality: "Trồng răng implant",
+    image: IconImplant,
+  },
+  {
+    speciality: "Bọc răng sứ",
+    image: IconBocRangSu,
   },
 ];
 
